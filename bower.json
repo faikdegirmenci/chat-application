@@ -1,0 +1,17 @@
+{
+  "name": "uygulama-chat",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Faik Değirmenci <faikdegirmenci@hotmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/faikdegirmenci/chat-application",
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}
