@@ -14,7 +14,7 @@ io.adapter(redisAdapter({
     port: process.env.REDIS_PORT
 }));
 io.on('connection', socket =>{
-    console.log('a user logged in with name'+ socket.request.user.name);
+    console.log('a user logged in with name '+ socket.request.user.name);
     socket.broadcast.emit('hello');
 });
 
